@@ -11,8 +11,8 @@ apply plugin: 'jacoco'
 group                        = 'io.github.ensgijs'
 archivesBaseName             = 'ens-nbt'
 version                      = '0.1-SNAPSHOT'
-sourceCompatibility          = JavaLanguageVersion.of(17)
-targetCompatibility          = JavaLanguageVersion.of(17)
+sourceCompatibility          = JavaVersion.VERSION_17
+targetCompatibility          = JavaVersion.VERSION_17
 compileJava.options.encoding = 'UTF-8'
 compileTestJava.options.encoding = 'UTF-8'
 
